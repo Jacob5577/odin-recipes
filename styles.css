@@ -1,4 +1,50 @@
+
+* {
+    background-color: rgb(240, 229, 215);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
 img {
-    height: 400px;
-    width: 0 auto;
+    height: 30%;
+    width: 30%;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+.recipe {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.ingredients {
+    margin: 0 500px;
+}
+ol {
+    margin: 0 500px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 100px ;
+    border-bottom: 1px black;
+}
+
+.links {
+    margin: 20px;
+    border-top: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    text-decoration: underline;
 }
